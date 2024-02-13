@@ -1,0 +1,58 @@
+* {
+    color:white;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/19354922/pexels-photo-19354922/free-photo-of-alpino-alpes-cidade-meio-urbano.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.background-login {
+    height: 600px;
+    width: 400px;
+    background: rgba(14, 13, 13, 0.856);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.login {
+    padding: 20px;
+}
+
+.submit {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit button{
+    padding: 20px;
+    width: 100px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.error {
+    color:darkred !important;
+}
+
+@media (max-width: 1600px) {
+    body {
+        min-height: 100vh;
+    }
+  }
+    
+@media (max-width: 768px) {
+    body {
+        align-content: center;
+    }
+}
+    
